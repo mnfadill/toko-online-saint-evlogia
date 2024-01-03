@@ -52,7 +52,12 @@
                                 <div class="mt-5">
                                     <div class="mb-5">
                                         <label for="post-form-7" class="form-label">Your Address <small class="text-danger">*</small></label>
-                                        <input type="text" id="alamat" name="alamat" class="form-control" placeholder="Your mobile phone" autocomplete="off" required>
+                                        <input type="text" id="alamat" name="alamat" class="form-control" placeholder="Your Addres" autocomplete="off" required>
+                                    </div>
+
+                                    <div class="mb-5">
+                                        <label for="post-form-7" class="form-label">Size <small class="text-danger">*</small></label>
+                                        <input type="text" id="ukuran" name="ukuran" class="form-control" placeholder="Size" autocomplete="off" required>
                                     </div>
 
                                     <div class="mb-5">

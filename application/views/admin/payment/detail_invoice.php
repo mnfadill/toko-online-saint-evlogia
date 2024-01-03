@@ -31,6 +31,7 @@
                         <div class="font-medium text-base truncate">Buyer Details</div>
                     </div>
                     <div class="flex items-center"> <i data-lucide="clipboard" class="w-4 h-4 text-slate-500 mr-2"></i> <b>Customer Name:</b> <a href="" class="underline decoration-dotted ml-1"><?= $invoice->name ?></a> </div>
+                    <!-- <div class="flex items-center mt-3"> <i data-lucide="calendar" class="w-4 h-4 text-slate-500 mr-2"></i> <b>Size:</b>&nbsp; <?= $invoice->ukuran ?> </div> -->
                     <div class="flex items-center mt-3"> <i data-lucide="calendar" class="w-4 h-4 text-slate-500 mr-2"></i> <b>Phone Number:</b>&nbsp; <?= $invoice->mobile_phone ?> </div>
                 </div>
                 <div class="box p-5 rounded-md mt-5">

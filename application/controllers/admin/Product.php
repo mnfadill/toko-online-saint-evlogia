@@ -35,6 +35,7 @@ class Product extends CI_Controller
 		$nama_brg 	= $this->input->post('nama_brg');
 		$keterangan = $this->input->post('keterangan');
 		$kategori 	= $this->input->post('kategori');
+		$ukuran 	= $this->input->post('ukuran');
 		$harga 		= $this->input->post('harga');
 		$stok 		= $this->input->post('stok');
 		$gambar		= $_FILES['gambar']['name'];
@@ -55,6 +56,7 @@ class Product extends CI_Controller
 			'nama_brg' 	=> $nama_brg,
 			'keterangan' 	=> $keterangan,
 			'kategori' 	=> $kategori,
+			'ukuran'	=> $ukuran,
 			'harga' 	=> $harga,
 			'stok' 	=> $stok,
 			'gambar' 	=> $gambar
@@ -81,6 +83,7 @@ class Product extends CI_Controller
 		$nama_brg 		= $this->input->post('nama_brg');
 		$keterangan 	= $this->input->post('keterangan');
 		$kategori 		= $this->input->post('kategori');
+		$ukuran			= $this->input->post('ukuran');
 		$harga 			= $this->input->post('harga');
 		$stok 			= $this->input->post('stok');
 
@@ -88,6 +91,7 @@ class Product extends CI_Controller
 			'nama_brg' 		=> $nama_brg,
 			'keterangan' 	=> $keterangan,
 			'kategori' 		=> $kategori,
+			'ukuran'		=> $ukuran,
 			'harga' 		=> $harga,
 			'stok' 			=> $stok
 		);

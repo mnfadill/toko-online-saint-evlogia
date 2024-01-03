@@ -1,12 +1,12 @@
-<h2><center>Data Siswa</center></h2>
+<h2><center>Struk Pesanan</center></h2>
 <hr/>
 <table border="1" width="100%" style="text-align:center;">
 	<tr>
 		<th>No</th>
 		<th>Nama</th>
-		<th>Kelas</th>
-		<th>Jenis Kelamin</th>
-		<th>Alamat</th>
+		<th>Harga</th>
+		<th>Total Pesanan</th>
+		<th>Total Tagihan</th>
 	</tr>
 	<?php 
 	$no=1; 

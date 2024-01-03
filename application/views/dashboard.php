@@ -26,9 +26,12 @@
                         <div class="text-slate-600 dark:text-slate-500 mt-5">
                             <div class="flex items-center"> <i data-lucide="link" class="w-4 h-4 mr-2"></i> Price: IDR <?= number_format($row->harga, 0, ',', '.') ?> </div>
                             <div class="flex items-center mt-2"> <i data-lucide="layers" class="w-4 h-4 mr-2"></i> Remaining Stock: <?= number_format($row->stok, 0, ',', '.') ?> </div>
+                            <!-- <div class="flex items-center mt-2"><i data-lucide="layers" class="w-4 h-4 mr-2">Ukuran</i> <?= number_format($row->ukuran, 0, ',', '.') ?> </div> -->
+                            <div class="flex items-center mt-2"> <i data-lucide="layers" class="w-4 h-4 mr-2"></i> Size: M/L/XL </div>
                             <div class="flex items-center mt-2"> <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Status: Active </div>
-                            <br>
-                            <a class="flex items-center btn btn-sm btn-primary mr-3" href="">Detail Product</a>
+                            
+                            <!-- <br>
+                            <a class="flex items-center btn btn-sm btn-primary mr-3" href="">Detail Product</a> -->
                         </div>
                     </div>
                     <div class="flex justify-center lg:justify-end items-center p-5 border-t border-slate-200/60">

@@ -15,7 +15,7 @@ class Invoice extends CI_Controller
 
 	public function index()
 	{
-		$data['title'] = 'Invoice';
+		$data['title'] = 'Tagihan';
 		$data['invoice'] = $this->model_invoice->get();
 		$this->load->view('layout/admin/header', $data);
 		$this->load->view('admin/payment/invoice', $data);
